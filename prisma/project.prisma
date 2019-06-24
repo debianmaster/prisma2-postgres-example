@@ -1,8 +1,16 @@
 datasource db {
-  provider = "postgres"
-  url      = "postgresql://prisma:prisma@localhost:5432/prisma?schema=test112"
-  default  = true
+    provider = "sqlite"
+    url      = "file:dev.db"
+    default  = true
 }
+//
+//datasource db {
+  //provider = "postgres"
+  //url      = "postgresql://prisma:prisma@localhost:5432/prisma?schema=test112"
+  //default  = true
+//}
+
+
 
 generator photon {
     provider = "photonjs"
