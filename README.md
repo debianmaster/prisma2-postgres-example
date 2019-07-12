@@ -1,3 +1,6 @@
+```sh
+docker run -d --name postgresql -e POSTGRESQL_USERNAME=prisma -e POSTGRESQL_PASSWORD=prisma -e POSTGRESQL_DATABASE=prisma bitnami/postgresql:latest
+```
 # REST API Example
 
 This example shows how to implement a **REST API with TypeScript** using [Express.JS](https://expressjs.com/de/) and Prisma.
