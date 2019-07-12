@@ -1,5 +1,5 @@
 ```sh
-docker run -d --name postgresql -e POSTGRESQL_USERNAME=prisma -e POSTGRESQL_PASSWORD=prisma -e POSTGRESQL_DATABASE=prisma bitnami/postgresql:latest
+docker run -d --name postgresql -p 5432:5432 -e POSTGRESQL_USERNAME=prisma -e POSTGRESQL_PASSWORD=prisma -e POSTGRESQL_DATABASE=prisma bitnami/postgresql:latest
 ```
 # REST API Example
 
